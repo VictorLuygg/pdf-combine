@@ -1,0 +1,52 @@
+# PDF Combine Project Standards
+
+You are building a PDF combination tool optimized for handling compressed archives.
+
+## Code Style and Structure
+
+-   Write concise TypeScript code with accurate error handling
+-   Use functional programming patterns
+-   Structure files: exported component, helpers, types
+-   Implement proper file stream handling for large files
+
+## Naming Conventions
+
+-   Use lowercase with dashes for directories
+-   Favor named exports
+
+## TypeScript Usage
+
+-   Use TypeScript for type safety
+-   Define clear interfaces for file processing steps
+-   Implement strong error typing
+
+## UI and Styling
+
+-   Use minimal Shadcn UI components
+-   Implement drag-and-drop file upload
+-   Show clear progress indicators
+
+## Performance Optimization
+
+-   Stream file processing to handle large archives
+-   Implement proper memory management
+-   Use Web Workers for heavy processing
+-   Implement chunked file reading
+
+## Key Requirements
+
+-   Support multiple archive formats (.zip, .rar)
+-   Handle large files without size limits
+-   Preserve PDF ordering from archive
+-   Provide progress feedback
+-   Implement proper error handling
+-   Ensure memory-efficient processing
+
+## Dependencies
+
+-   pdf-lib: PDF manipulation
+-   jszip: Archive handling
+-   react-dropzone: File upload
+-   web-streams-polyfill: Stream processing
+
+Follow memory-efficient patterns for file processing and state management.
