@@ -1,8 +1,6 @@
 import JSZip from 'jszip';
 import { PDFDocument } from 'pdf-lib';
 
-const CHUNK_SIZE = 1024 * 1024; // 1MB chunks
-
 interface ProcessingOptions {
     maxFileSize?: number;
     supportedFormats?: string[];
